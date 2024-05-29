@@ -21,18 +21,21 @@ namespace MVCProjectv2.Controllers
         }
 
         // GET: Jokes
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Joke.ToListAsync());
         }
 
         // GET: Jokes/ShowSearchForm
+        [Authorize]
         public async Task<IActionResult> ShowSearchForm()
         {
             return View();
         }
 
         // POST: Jokes/ShowSearchResults
+        [Authorize]
         public async Task<IActionResult> ShowSearchResults(string SearchPhrase)
         {
             return View("Index", await _context.Joke.Where(j => j.JokeQuestion.Contains(SearchPhrase)).ToListAsync());
@@ -70,7 +73,7 @@ namespace MVCProjectv2.Controllers
         [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,JokeQuestion,JokeAnswer")] Joke joke)
+        public async Task<IActionResult> Create([Bind("Id,JokeQuestion,JokeAnswer,UserId")] Joke joke)
         {
             if (ModelState.IsValid)
             {
@@ -104,7 +107,7 @@ namespace MVCProjectv2.Controllers
         [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,JokeQuestion,JokeAnswer")] Joke joke)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,JokeQuestion,JokeAnswer,UserId")] Joke joke)
         {
             if (id != joke.Id)
             {

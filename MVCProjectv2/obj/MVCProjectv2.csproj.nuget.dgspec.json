@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\laragon\\Gecko\\Deving\\aspnet_mvcprojectv2\\MVCProjectv2\\MVCProjectv2.csproj": {}
+    "C:\\Users\\Zee\\Documents\\Projects\\c#\\MVCProjectv2\\MVCProjectv2\\MVCProjectv2.csproj": {}
   },
   "projects": {
-    "C:\\laragon\\Gecko\\Deving\\aspnet_mvcprojectv2\\MVCProjectv2\\MVCProjectv2.csproj": {
+    "C:\\Users\\Zee\\Documents\\Projects\\c#\\MVCProjectv2\\MVCProjectv2\\MVCProjectv2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\laragon\\Gecko\\Deving\\aspnet_mvcprojectv2\\MVCProjectv2\\MVCProjectv2.csproj",
+        "projectUniqueName": "C:\\Users\\Zee\\Documents\\Projects\\c#\\MVCProjectv2\\MVCProjectv2\\MVCProjectv2.csproj",
         "projectName": "MVCProjectv2",
-        "projectPath": "C:\\laragon\\Gecko\\Deving\\aspnet_mvcprojectv2\\MVCProjectv2\\MVCProjectv2.csproj",
-        "packagesPath": "C:\\Users\\ZwivhuyaNthakheni\\.nuget\\packages\\",
-        "outputPath": "C:\\laragon\\Gecko\\Deving\\aspnet_mvcprojectv2\\MVCProjectv2\\obj\\",
+        "projectPath": "C:\\Users\\Zee\\Documents\\Projects\\c#\\MVCProjectv2\\MVCProjectv2\\MVCProjectv2.csproj",
+        "packagesPath": "C:\\Users\\Zee\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zee\\Documents\\Projects\\c#\\MVCProjectv2\\MVCProjectv2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ZwivhuyaNthakheni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zee\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -93,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

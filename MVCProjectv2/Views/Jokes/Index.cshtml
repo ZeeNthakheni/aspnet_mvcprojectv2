@@ -1,4 +1,8 @@
 ﻿@model IEnumerable<MVCProjectv2.Models.Joke>
+@using Microsoft.AspNetCore.Identity
+@using System.Security.Claims
+@inject UserManager<IdentityUser> UserManager
+
 
 @{
     ViewData["Title"] = "Index";
@@ -20,18 +24,33 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.JokeQuestion)
-            </td>
+    @foreach (var item in Model) {
+        @if (@User.FindFirst(ClaimTypes.NameIdentifier).Value == item.UserId)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.JokeQuestion)
+                </td>
 
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+        else
+        {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.JokeQuestion)
+                    </td>
+
+                    <td>
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                    </td>
+                </tr>
+        }
+    }
     </tbody>
 </table>

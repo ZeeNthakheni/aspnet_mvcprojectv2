@@ -1,12 +1,118 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Zee\\Documents\\Projects\\c#\\MVCProjectv2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5104BB-876A-40C4-BA37-8AC263C3959A}|MVCProjectv2\\MVCProjectv2.csproj|c:\\users\\zee\\documents\\projects\\c#\\mvcprojectv2\\mvcprojectv2\\views\\jokes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B5104BB-876A-40C4-BA37-8AC263C3959A}|MVCProjectv2\\MVCProjectv2.csproj|solutionrelative:mvcprojectv2\\views\\jokes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5104BB-876A-40C4-BA37-8AC263C3959A}|MVCProjectv2\\MVCProjectv2.csproj|c:\\users\\zee\\documents\\projects\\c#\\mvcprojectv2\\mvcprojectv2\\views\\jokes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B5104BB-876A-40C4-BA37-8AC263C3959A}|MVCProjectv2\\MVCProjectv2.csproj|solutionrelative:mvcprojectv2\\views\\jokes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5104BB-876A-40C4-BA37-8AC263C3959A}|MVCProjectv2\\MVCProjectv2.csproj|c:\\users\\zee\\documents\\projects\\c#\\mvcprojectv2\\mvcprojectv2\\controllers\\jokescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5104BB-876A-40C4-BA37-8AC263C3959A}|MVCProjectv2\\MVCProjectv2.csproj|solutionrelative:mvcprojectv2\\controllers\\jokescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5104BB-876A-40C4-BA37-8AC263C3959A}|MVCProjectv2\\MVCProjectv2.csproj|c:\\users\\zee\\documents\\projects\\c#\\mvcprojectv2\\mvcprojectv2\\views\\jokes\\showsearchform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B5104BB-876A-40C4-BA37-8AC263C3959A}|MVCProjectv2\\MVCProjectv2.csproj|solutionrelative:mvcprojectv2\\views\\jokes\\showsearchform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_MVCProjectv2_3d80c131_4a37_4040_9497_ce31b98c713a/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5104BB-876A-40C4-BA37-8AC263C3959A}|MVCProjectv2\\MVCProjectv2.csproj|c:\\users\\zee\\documents\\projects\\c#\\mvcprojectv2\\mvcprojectv2\\models\\joke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5104BB-876A-40C4-BA37-8AC263C3959A}|MVCProjectv2\\MVCProjectv2.csproj|solutionrelative:mvcprojectv2\\models\\joke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShowSearchForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zee\\Documents\\Projects\\c#\\MVCProjectv2\\MVCProjectv2\\Views\\Jokes\\ShowSearchForm.cshtml",
+              "RelativeDocumentMoniker": "MVCProjectv2\\Views\\Jokes\\ShowSearchForm.cshtml",
+              "ToolTip": "C:\\Users\\Zee\\Documents\\Projects\\c#\\MVCProjectv2\\MVCProjectv2\\Views\\Jokes\\ShowSearchForm.cshtml",
+              "RelativeToolTip": "MVCProjectv2\\Views\\Jokes\\ShowSearchForm.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T18:51:34.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zee\\Documents\\Projects\\c#\\MVCProjectv2\\MVCProjectv2\\Views\\Jokes\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCProjectv2\\Views\\Jokes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Zee\\Documents\\Projects\\c#\\MVCProjectv2\\MVCProjectv2\\Views\\Jokes\\Index.cshtml",
+              "RelativeToolTip": "MVCProjectv2\\Views\\Jokes\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAiwB4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T18:39:44.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JokesController.cs",
+              "DocumentMoniker": "C:\\Users\\Zee\\Documents\\Projects\\c#\\MVCProjectv2\\MVCProjectv2\\Controllers\\JokesController.cs",
+              "RelativeDocumentMoniker": "MVCProjectv2\\Controllers\\JokesController.cs",
+              "ToolTip": "C:\\Users\\Zee\\Documents\\Projects\\c#\\MVCProjectv2\\MVCProjectv2\\Controllers\\JokesController.cs",
+              "RelativeToolTip": "MVCProjectv2\\Controllers\\JokesController.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAowCgAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T18:37:30.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zee\\Documents\\Projects\\c#\\MVCProjectv2\\MVCProjectv2\\Views\\Jokes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MVCProjectv2\\Views\\Jokes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Zee\\Documents\\Projects\\c#\\MVCProjectv2\\MVCProjectv2\\Views\\Jokes\\Edit.cshtml",
+              "RelativeToolTip": "MVCProjectv2\\Views\\Jokes\\Edit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABQAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T18:36:51.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_MVCProjectv2_3d80c131_4a37_4040_9497_ce31b98c713a/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-29T18:21:29.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Joke.cs",
+              "DocumentMoniker": "C:\\Users\\Zee\\Documents\\Projects\\c#\\MVCProjectv2\\MVCProjectv2\\Models\\Joke.cs",
+              "RelativeDocumentMoniker": "MVCProjectv2\\Models\\Joke.cs",
+              "ToolTip": "C:\\Users\\Zee\\Documents\\Projects\\c#\\MVCProjectv2\\MVCProjectv2\\Models\\Joke.cs",
+              "RelativeToolTip": "MVCProjectv2\\Models\\Joke.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T18:19:01.366Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

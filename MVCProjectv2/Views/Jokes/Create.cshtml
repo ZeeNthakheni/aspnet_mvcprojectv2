@@ -1,4 +1,7 @@
 ﻿@model MVCProjectv2.Models.Joke
+@using Microsoft.AspNetCore.Identity
+@using System.Security.Claims
+@inject UserManager<IdentityUser> UserManager
 
 @{
     ViewData["Title"] = "Create";
@@ -12,6 +15,7 @@
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input class="form-control" type="hidden" name="UserId" value="@User.FindFirst(ClaimTypes.NameIdentifier).Value" />
             <div class="form-group">
                 <label asp-for="JokeQuestion" class="control-label"></label>
                 <input asp-for="JokeQuestion" class="form-control" />
